@@ -2,6 +2,12 @@
 
 wenn du root rechte hast und eine einfachere durch die Tab Taste bedienbare shell alternative zu bash was debian nutzt, wäre dann zsh zsh Shell
 
+Automatisch:
+  cd zshHelp
+  chmod +x zshinstall.sh
+  ./zshinstall.sh
+
+Manuell:
   apt install -y zsh git curl
   sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
