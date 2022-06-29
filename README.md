@@ -4,8 +4,8 @@ wenn du root rechte hast und eine einfachere durch die Tab Taste bedienbare shel
 
 Automatisch:
   cd zshHelp
-  chmod +x zshinstall.sh
-  ./zshinstall.sh
+  chmod +x install-zsh.sh
+  ./install-zsh.sh
 
 Manuell:
   apt install -y zsh git curl
